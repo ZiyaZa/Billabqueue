@@ -17,27 +17,35 @@ If that device has been used before, the student\`s pc number can be automatical
 The control panel for this application can be found at “/admin” page. When you access that, you will be required to enter the admin password. The default password is “password” (without quotes). It is strongly recommended to change the password for security purposes.
 
 After logging in, there will be two buttons on the top left corner for resetting everything about the queue and logging out. 
+
 ![](/Screenshots/2.png)
 
 In the first field, you can change the password. Currently, it is impossible to retrieve the forgotten password without looking at it in the /tmp folder. To delete the password and make it the default one, you should delete the file from the subfolder of the /tmp folder.
+
 ![](/Screenshots/3.png)
 
 The next one is for removing someone from the queue. You can also remove someone from the queue by clicking on it on queue while being logged in as an admin. Please note that removing someone from this page WILL NOT affect the average wait and grade times while clicking on it on the queue page will affect them.  
+
 ![](/Screenshots/4.png)
 
 You can also change the queue sorting type. Currently, you may choose to sort from the first person to the last one or vice versa.  
+
 ![](/Screenshots/5.png)
 
 The next field is about TAs\` information. You may change their names and enable/disable the statistics. This includes the number of persons graded and the average wait/grade times.  
+
 ![](/Screenshots/6.png)
 
 Then, you can see the IP mapping of the devices according to the PC number. Currently, one PC number can have at most one associated IP. Using another device wouldn\`t overwrite the previous one, so you may need to manually fix the wrong IPs. This list is used for skipping the pc number part for students while adding themselves to the queue.
+
 ![](/Screenshots/7.png)
 
 The next field is the IP pattern field. Here you may specify the devices you want to be able to add somebody to the queue by their IPs. You can put * in some parts of the IP to allow all numbers in that part. To accept the whole world, you should write "\*.\*.\*.\*" (without quotes). The IPs of all devices in the Bilkent network start with 139.179, so you can put "139.179.\*.\*" to allow everybody in the Bilkent network. The IPs of Lab rooms in the B building start with 139.179 and the third part is the room number without the middle digit. For example, the pattern for Lab №202 would be "139.179.22.\*". 
+
 ![](/Screenshots/8.png)
 
 And finally, you may find the scheme of the Lab room and the numbering of the PCs in the last field.  
+
 ![](/Screenshots/9.png)
 
 ## Notes
