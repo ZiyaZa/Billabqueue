@@ -19,7 +19,7 @@ The control panel for this application can be found at “/admin” page. When y
 After logging in, there will be two buttons on the top left corner for resetting everything about the queue and logging out. 
 ![](/Screenshots/2.png)
 
-In the first field, you can change the password. Currently, it is impossible to retrieve the forgotten password without looking at it in the /tmp folder. To delete the password and make it the default one, you should delete the file from the subfolder of the /tmp folder. 
+In the first field, you can change the password. Currently, it is impossible to retrieve the forgotten password without looking at it in the /tmp folder. To delete the password and make it the default one, you should delete the file from the subfolder of the /tmp folder.
 ![](/Screenshots/3.png)
 
 The next one is for removing someone from the queue. You can also remove someone from the queue by clicking on it on queue while being logged in as an admin. Please note that removing someone from this page WILL NOT affect the average wait and grade times while clicking on it on the queue page will affect them.  
