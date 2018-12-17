@@ -54,10 +54,3 @@ And finally, you may find the scheme of the Lab room and the numbering of the PC
 3)	Students and TAs should be able to include special characters in their names, for instance, Turkish characters.
 4)	This application is very insecure since it saves all of the information in the /tmp folder. This folder can be deleted after reboot of the system. Also, this folder is available for everybody, so anybody can access it and change any information he/she wants. Since Bilkent University doesn`t provide any database for me, I couldn`t create a more secure application. Also, the server is not allowed to write information to the folder in which the application is located. The only option was to use the /tmp folder. Sorry about that.
 5)	Since it\`s my first project, there may be some problems with the application. If you experience any problem or if you have any suggestion, please don\`t hesitate to contact me.
-
-## Contact me
-Ziya Mukhtarov
-
-Bilkent University, 1st-year Computer Engineering student
-
-ziya.mukhtarov@ug.bilkent.edu.tr
